@@ -7,12 +7,9 @@ import java.util.NoSuchElementException;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
-//import com.api.shoes.exceptionHandler.BusinessException;
 import com.api.shoes.model.PurchaseReport;
 import com.api.shoes.model.Shoes;
 import com.api.shoes.model.Subscriber;
-//import com.api.superhero.model.SuperHero;
-//import com.api.superhero.repository.SuperHeroRepository;
 import com.api.shoes.repository.PurchaseRepository;
 import com.api.shoes.repository.ShoeRepository;
 import com.api.shoes.repository.SubscriberRepository;
@@ -20,9 +17,7 @@ import com.api.shoes.service.ShoesService;
 
 @Service
 public class ShoesServiceImpl implements ShoesService{
-//
-//	@Autowired
-//	private SuperHeroRepository repository;
+
 	@Autowired
 	private ShoeRepository repositoryShoes;
 	@Autowired

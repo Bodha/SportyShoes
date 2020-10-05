@@ -11,7 +11,6 @@ import org.springframework.web.bind.annotation.RestController;
 import com.api.shoes.model.PurchaseReport;
 import com.api.shoes.model.Shoes;
 import com.api.shoes.model.Subscriber;
-//import com.api.superhero.model.SuperHero;
 import com.api.shoes.service.ShoesService;
 
 @RestController
